@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#box
+{
+    background-color:yellowgreen;
+    height:300px;
+    width:700px;
+    visibility: hidden;
+}
+
+body {
+        /* background-image: url(pop.png); */
+
+        background-color: rgb(200, 80, 150);
+        
+      }
+
+
+.icon{
+        margin-top:18px;
+        float: right;
+}
+#box.show{
+
+    visibility: visible;
+}
+.click{
+
+    height:2000;
+    width:100px;
+}
